@@ -13,10 +13,10 @@ function App() {
         <li>Commissioner</li>
         <li>Mayor</li>
         <li>Governor</li>
-        <li>Representative</li>
+        <li>Representative/Congressman</li>
         <li>Senator</li>
         <li>President</li>
-        <li>Congressman</li>
+        
       </ul>
     </div>
   );
