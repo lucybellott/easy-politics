@@ -22,4 +22,33 @@ function App() {
   );
 }
 
-export default App;
+// export default App;
+
+// import TextSection from './components/TextSection';
+
+// function App() {
+//   const [textData, setTextData] = useState('');
+
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       try {
+//         const response = await fetch('/texts/example.txt');
+//         const content = await response.text();
+//         setTextData(content);
+//       } catch (error) {
+//         console.error('Error fetching text content:', error);
+//       }
+//     };
+
+//     fetchData();
+//   }, []);
+
+//   return (
+//     <div>
+//       <h1>Welcome to My React App</h1>
+//       <TextSection textData={textData} />
+//     </div>
+//   );
+// }
+
+// export default App;
